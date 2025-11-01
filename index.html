@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ing. Ondřej Bajer</title>
+
+    <!-- Fonts (2× serif) -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500&family=Lora:wght@600&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body class="bg-body">
+
+    <!-- NAVBAR -->
+    <header class="bg-body border-bottom">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-lg page">
+                <a class="navbar-brand fw-semibold" href="index.html">Ondřej Bajer</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- Přidej aria-current="page" tam, kde jsi zrovna -->
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="page">
+
+        <!-- ABOUT -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+
+                    <!-- Obrázek -->
+                    <div class="col-12 col-md-5 text-center">
+                        <img src="pictures/Ondrej_foto.png" alt="Ondřej Bajer"
+                            class="img-fluid shadow-sm rounded-3 w-75 w-md-100 w-lg-75 mx-auto" loading="lazy"
+                            decoding="async">
+                    </div>
+
+                    <!-- Text -->
+                    <div class="col-12 col-md-7 text-center text-md-start">
+                        <h1 class="fw-bold mb-3">Ing. Ondřej Bajer</h1>
+                        <p class="lead text-secondary mb-3">
+                            Former Power Trader now transitioning into Software Development.
+                            I’m passionate about technology, automation, and clean design — and I’m
+                            actively expanding my skills in C#, .NET, Python, and front-end frameworks.
+                        </p>
+                        <p class="mb-0">
+                            I’m open to new opportunities where I can grow and contribute as a developer.
+                            If my profile resonates with you, I’ll be happy to connect and talk further.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECH STACK -->
+        <section class="section">
+            <div class="surface p-4 p-md-5 text-center">
+                <h2 class="fw-semibold mb-4">Tech Stack</h2>
+
+                <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-4 justify-content-center">
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/icons8-c-sharp-logo-2.svg" alt="C#" class="tech-icon"
+                                style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">C# / .NET</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/icons8-python.svg" alt="Python" class="tech-icon"
+                                style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">Python</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/Javascript--Streamline-Svg-Logos (1).svg" alt="JavaScript"
+                                class="tech-icon" style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">JavaScript</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/icons8-react-96.png" alt="React" class="tech-icon"
+                                style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">React</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/icons8-sql-96.png" alt="MS SQL" class="tech-icon"
+                                style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">MS SQL</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/icons8-sqlite.svg" alt="SQLite" class="tech-icon"
+                                style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">SQLite</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/html5.svg" alt="HTML" class="tech-icon" style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">HTML</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/css3.svg" alt="CSS" class="tech-icon" style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">CSS</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tech-tile">
+                            <img src="pictures/icons8-bootstrap.svg" alt="Bootstrap" class="tech-icon"
+                                style="max-height: 60px;">
+                        </div>
+                        <div class="small mt-2">Bootstrap</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-body border-top">
+        <div class="page text-center py-4">
+            <p class="text-secondary small mb-0">© 2025 Ondřej Bajer</p>
+        </div>
+    </footer>
+
+    <script src="bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- (volitelné) auto-active pro navbar odkazy podle aktuální stránky -->
+    <script>
+        (function () {
+            const current = location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('.navbar .nav-link').forEach(a => {
+                if (a.getAttribute('href') === current) a.classList.add('active');
+            });
+        })();
+    </script>
+</body>
+
+</html>

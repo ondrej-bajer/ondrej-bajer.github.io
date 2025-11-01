@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ing. Ondřej Bajer</title>
+
+    <!-- Fonts (2× serif) -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500&family=Lora:wght@600&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body class="bg-body">
+
+    <!-- NAVBAR -->
+    <header class="bg-body border-bottom">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-lg page">
+                <a class="navbar-brand fw-semibold" href="index.html">Ondřej Bajer</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- Přidej aria-current="page" tam, kde jsi zrovna -->
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="page">
+
+        <!-- Intro resume -->
+        <section class="py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-9 text-center text-lg-start">
+                    <p class="lead text-secondary mb-3">
+                        Career-changer from the energy trading industry, now focused on
+                        software development in C# and .NET. Passionate about creating practical,
+                        well-structured applications and continuously improving as a developer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="section py-5">
+            <div class="container">
+                <header class="text-center mb-4">
+                    <h2 class="fw-semibold mb-1">Work Experience</h2>
+                </header>
+
+
+                <!-- Jednotlivé sekce pod sebou -->
+                <article class="mb-5">
+                    <h3 class="h5 mb-1">Power Trader</h3>
+                    <p class="text-secondary mb-3">EP Commodities a.s. · Prague · Apr 2019 - Feb 2025</p>
+                    <ul class="mb-0 ps-3">
+                        <li class="mb-2">Designed Python- and VBA-based tools for data processing, reporting, and
+                            workflow automation.</li>
+                        <li class="mb-2">Created a custom trading UI for order management and risk monitoring.</li>
+                        <li class="mb-2">Worked closely with IT and quant teams to improve internal systems and data
+                            pipelines.</li>
+                        <li class="mb-2">Integrated data APIs and optimized processes for reliability and speed.</li>
+                        <li>Built a strong foundation in structured logic, problem analysis, and independent
+                            development.</li>
+                    </ul>
+                </article>
+
+
+                <article class="mb-5">
+                    <h3 class="h5 mb-1">Energy Trader</h3>
+                    <p class="text-secondary mb-3">E.ON Energie a.s. · České Budějovice · Apr 2015 - Aug 2018</p>
+                    <ul class="mb-0 ps-3">
+                        <li class="mb-2">Managed data‑intensive tasks such as portfolio analysis, risk monitoring, and
+                            reporting.</li>
+                        <li class="mb-2">Collaborated across departments, translating business needs into clear
+                            technical specifications.</li>
+                        <li>Supported process improvement and automation initiatives with the internal IT team.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section py-5">
+            <div class="container">
+                <header class="text-center mb-4">
+                    <h2 class="fw-semibold mb-1">Education</h2>
+                </header>
+
+
+                <!-- Jednotlivé sekce pod sebou -->
+                <article class="mb-5">
+                    <h3 class="h5 mb-1">Retraining Program – Web Application Development in C#</h3>
+                    <p class="text-secondary mb-3">ITnetwork.cz · Prague · Jun 2025 - Oct 2025</p>
+                    <ul class="mb-0 ps-3">
+                        <li class="mb-2">Practical program (197 hours)</li>
+                        <li class="mb-2">Cover C#, OOP, LINQ, ASP.NET Core
+                            MVC, Web API, MS-SQL, JavaScript, React, and best practices.</li>
+                    </ul>
+                </article>
+
+
+                <article class="mb-5">
+                    <h3 class="h5 mb-1">Master’s in Management</h3>
+                    <p class="text-secondary mb-3">Prague University of Economics and Business · Graduated 2015</p>
+                    <ul class="mb-0 ps-3">
+                        <li class="mb-2">Master thesis: Eye-tracking methods using DIY (do it yourself) devices
+                            and open-source software</li>
+                    </ul>
+                </article>
+
+                <article class="mb-5">
+                    <h3 class="h5 mb-1">English </h3>
+                    <p class="text-secondary mb-3">Navitas English · Perth Australia · Aug 2018 - Mar 2019</p>
+                    <ul class="mb-0 ps-3">
+                        <li class="mb-2">English language immersion
+                            program focused on advanced
+                            communication</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Download Resume -->
+        <section class="section py-5 text-center">
+            <div class="container">
+                <a href="resume/CV_Ondrej_Bajer.pdf" class="btn btn-outline-dark px-4 py-2 fw-semibold" download="Ondrej_Bajer_Resume.pdf">
+                    <i class="bi bi-download me-2"></i>Download PDF Resume
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-body border-top">
+        <div class="page text-center py-4">
+            <p class="text-secondary small mb-0">© 2025 Ondřej Bajer</p>
+        </div>
+    </footer>
+
+    <script src="bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- (volitelné) auto-active pro navbar odkazy podle aktuální stránky -->
+    <script>
+        (function () {
+            const current = location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('.navbar .nav-link').forEach(a => {
+                if (a.getAttribute('href') === current) a.classList.add('active');
+            });
+        })();
+    </script>
+</body>
+
+</html>
