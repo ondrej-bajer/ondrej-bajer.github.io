@@ -23,7 +23,12 @@
     <header class="bg-body border-bottom">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-lg page">
-                <a class="navbar-brand fw-semibold" href="index.html">Ondřej Bajer</a>
+                <a class="navbar-brand fw-semibold" href="index.html">
+                    Ondřej Bajer
+                    <span class="d-block text-secondary fw-normal fs-6">
+                        .NET Developer
+                    </span>
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -33,7 +38,6 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <!-- Přidej aria-current="page" tam, kde jsi zrovna -->
                         <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
@@ -50,25 +54,51 @@
             <div class="container">
                 <div class="row align-items-center g-4">
 
-                    <!-- Obrázek -->
-                    <div class="col-12 col-md-5 text-center">
+                    <!-- Profile picture -->
+                    <div class="col-12 col-md-4 text-center">
                         <img src="pictures/Ondrej_foto.png" alt="Ondřej Bajer"
-                            class="img-fluid shadow-sm rounded-3 w-75 w-md-100 w-lg-75 mx-auto" loading="lazy"
+                            class="img-fluid shadow-sm rounded-3 profile-photo mx-auto d-block" loading="lazy"
                             decoding="async">
                     </div>
 
-                    <!-- Text -->
-                    <div class="col-12 col-md-7 text-center text-md-start">
+                    <!-- About summary -->
+                    <div class="col-12 col-md-8 text-center text-md-start">
                         <h1 class="fw-bold mb-3">Ing. Ondřej Bajer</h1>
-                        <p class="lead text-secondary mb-3">
-                            Former Power Trader now transitioning into Software Development.
-                            I’m passionate about technology, automation, and clean design — and I’m
-                            actively expanding my skills in C#, .NET, Python, and front-end frameworks.
+                        <p class="lead text-secondary mb-4">
+                            I am a junior .NET developer with a background in energy trading, where I spent several
+                            years
+                            working with data, automation, and complex systems. Today, I focus on development
+                            using C#, ASP.NET Core, and SQL, and I enjoy turning problems into working software.
                         </p>
-                        <p class="mb-0">
-                            I’m open to new opportunities where I can grow and contribute as a developer.
-                            If my profile resonates with you, I’ll be happy to connect and talk further.
+                        <p class="mb-4">
+                            I am looking for a team where I can continue growing as a developer and contribute
+                            to products that are used by real users in everyday operation.
                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section with projects -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="fw-semibold mb-4 text-center">Projects</h2>
+
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Expense Tracker (ASP.NET Core MVC)</h5>
+                        <p class="card-text">
+                            Web application for tracking personal expenses with CRUD functionality.
+                        </p>
+                        <ul class="small">
+                            <li>ASP.NET Core MVC, Entity Framework, SQLite</li>
+                            <li>Backend logic, data validation, basic statistics</li>
+                            <li>Git-based workflow</li>
+                        </ul>
+                        <a href="https://github.com/ondrej-bajer/Expense-Tracker-mvc"
+                            class="btn btn-sm btn-outline-dark" target="_blank">
+                            View on GitHub
+                        </a>
                     </div>
                 </div>
             </div>
@@ -82,72 +112,32 @@
                 <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-4 justify-content-center">
                     <div class="col">
                         <div class="tech-tile">
-                            <img src="pictures/icons8-c-sharp-logo-2.svg" alt="C#" class="tech-icon"
-                                style="max-height: 60px;">
+                            <img src="pictures/CSharp.png" alt="C#" class="tech-icon" style="max-height: 80px;">
                         </div>
-                        <div class="small mt-2">C# / .NET</div>
+                        <div class="meta mt-2">C# / .NET</div>
                     </div>
 
                     <div class="col">
                         <div class="tech-tile">
-                            <img src="pictures/icons8-python.svg" alt="Python" class="tech-icon"
-                                style="max-height: 60px;">
+                            <img src="pictures/Python.png" alt="Python" class="tech-icon" style="max-height: 80px;">
                         </div>
-                        <div class="small mt-2">Python</div>
+                        <div class="meta mt-2">Python</div>
                     </div>
 
                     <div class="col">
                         <div class="tech-tile">
-                            <img src="pictures/Javascript--Streamline-Svg-Logos (1).svg" alt="JavaScript"
-                                class="tech-icon" style="max-height: 60px;">
+                            <img src="pictures/JavaScript.png" alt="JavaScript" class="tech-icon"
+                                style="max-height: 80px;">
                         </div>
-                        <div class="small mt-2">JavaScript</div>
+                        <div class="meta mt-2">JavaScript</div>
                     </div>
 
                     <div class="col">
                         <div class="tech-tile">
-                            <img src="pictures/icons8-react-96.png" alt="React" class="tech-icon"
-                                style="max-height: 60px;">
+                            <img src="pictures/MicrosoftSQLServer.png" alt="MS SQL" class="tech-icon"
+                                style="max-height: 80px;">
                         </div>
-                        <div class="small mt-2">React</div>
-                    </div>
-
-                    <div class="col">
-                        <div class="tech-tile">
-                            <img src="pictures/icons8-sql-96.png" alt="MS SQL" class="tech-icon"
-                                style="max-height: 60px;">
-                        </div>
-                        <div class="small mt-2">MS SQL</div>
-                    </div>
-
-                    <div class="col">
-                        <div class="tech-tile">
-                            <img src="pictures/icons8-sqlite.svg" alt="SQLite" class="tech-icon"
-                                style="max-height: 60px;">
-                        </div>
-                        <div class="small mt-2">SQLite</div>
-                    </div>
-
-                    <div class="col">
-                        <div class="tech-tile">
-                            <img src="pictures/html5.svg" alt="HTML" class="tech-icon" style="max-height: 60px;">
-                        </div>
-                        <div class="small mt-2">HTML</div>
-                    </div>
-
-                    <div class="col">
-                        <div class="tech-tile">
-                            <img src="pictures/css3.svg" alt="CSS" class="tech-icon" style="max-height: 60px;">
-                        </div>
-                        <div class="small mt-2">CSS</div>
-                    </div>
-
-                    <div class="col">
-                        <div class="tech-tile">
-                            <img src="pictures/icons8-bootstrap.svg" alt="Bootstrap" class="tech-icon"
-                                style="max-height: 60px;">
-                        </div>
-                        <div class="small mt-2">Bootstrap</div>
+                        <div class="meta mt-2">MS SQL</div>
                     </div>
                 </div>
             </div>
@@ -158,13 +148,15 @@
     <!-- FOOTER -->
     <footer class="bg-body border-top">
         <div class="page text-center py-4">
-            <p class="text-secondary small mb-0">© 2025 Ondřej Bajer</p>
+            <p class="text-secondary small mb-0">
+                © <span id="year"></span> Ondřej Bajer
+            </p>
         </div>
     </footer>
 
     <script src="bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- (volitelné) auto-active pro navbar odkazy podle aktuální stránky -->
+    <!-- (volitelné) auto-active for navbar links based on current page -->
     <script>
         (function () {
             const current = location.pathname.split('/').pop() || 'index.html';
@@ -172,6 +164,9 @@
                 if (a.getAttribute('href') === current) a.classList.add('active');
             });
         })();
+    </script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
 

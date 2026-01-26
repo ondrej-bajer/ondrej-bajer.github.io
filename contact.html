@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="bootstrap/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <!-- Your CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/styles.css" />
 </head>
 
@@ -34,7 +34,6 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <!-- Přidej aria-current="page" tam, kde jsi zrovna -->
                         <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
@@ -108,18 +107,6 @@
                 </div>
         </section>
 
-        <!-- Optional custom style -->
-        <style>
-            .hover-card {
-                transition: transform 0.2s, box-shadow 0.2s;
-            }
-
-            .hover-card:hover {
-                transform: translateY(-4px);
-                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-            }
-        </style>
-
         <!-- Copy to clipboard script -->
         <script>
             document.getElementById("phoneCard").addEventListener("click", () => {
@@ -144,7 +131,7 @@
 
     <script src="bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- (volitelné) auto-active pro navbar odkazy podle aktuální stránky -->
+    <!-- auto-active navbar links -->
     <script>
         (function () {
             const current = location.pathname.split('/').pop() || 'index.html';
