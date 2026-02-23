@@ -80,26 +80,129 @@
         </section>
 
         <!-- Section with projects -->
-        <section class="py-5">
+        <section class="py-5 bg-light">
             <div class="container">
-                <h2 class="fw-semibold mb-4 text-center">Projects</h2>
+                <div class="d-flex justify-content-between align-items-end mb-4">
+                    <h2 class="fw-semibold mb-0">Projects</h2>
+                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/ondrej-bajer" target="_blank"
+                        rel="noopener">
+                        GitHub profile
+                    </a>
+                </div>
 
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Expense Tracker (ASP.NET Core MVC)</h5>
-                        <p class="card-text">
-                            Web application for tracking personal expenses with CRUD functionality.
-                        </p>
-                        <ul class="small">
-                            <li>ASP.NET Core MVC, Entity Framework, SQLite</li>
-                            <li>Backend logic, data validation, basic statistics</li>
-                            <li>Git-based workflow</li>
-                        </ul>
-                        <a href="https://github.com/ondrej-bajer/Expense-Tracker-mvc"
-                            class="btn btn-sm btn-outline-dark" target="_blank">
-                            View on GitHub
-                        </a>
+                <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true">
+                        </button>
+
+                        <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1">
+                        </button>
                     </div>
+
+                    <div class="carousel-inner">
+
+                        <!-- Project 1 -->
+                        <div class="carousel-item active">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-body p-4 p-md-5">
+
+                                    <div class="d-flex flex-wrap gap-2 mb-3">
+                                        <span class="badge text-bg-dark">ASP.NET Core MVC</span>
+                                        <span class="badge text-bg-secondary">EF Core</span>
+                                        <span class="badge text-bg-secondary">SQLite</span>
+                                        <span class="badge text-bg-secondary">Identity</span>
+                                    </div>
+
+                                    <h4 class="fw-semibold">Expense Tracker</h4>
+
+                                    <p class="text-secondary">
+                                        Web application for tracking personal expenses with per-user data isolation,
+                                        category management, validation, and export functionality.
+                                    </p>
+
+                                    <ul class="small mb-4">
+                                        <li>Clean MVC architecture</li>
+                                        <li>Authentication & authorization</li>
+                                        <li>CSV/PDF export</li>
+                                        <li>Prepared for multi-currency support</li>
+                                    </ul>
+
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a class="btn btn-sm btn-dark"
+                                            href="https://github.com/ondrej-bajer/Expense-Tracker-mvc" target="_blank"
+                                            rel="noopener">
+                                            GitHub repo
+                                        </a>
+
+                                        <a class="btn btn-sm btn-outline-secondary"
+                                            href="https://github.com/ondrej-bajer/Expense-Tracker-mvc#readme"
+                                            target="_blank" rel="noopener">
+                                            README
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="carousel-item">
+                            <div class="card shadow-sm border-0">
+                                <div class="card-body p-4 p-md-5">
+
+                                    <div class="d-flex flex-wrap gap-2 mb-3">
+                                        <span class="badge text-bg-dark">.NET 8</span>
+                                        <span class="badge text-bg-secondary">Web API</span>
+                                        <span class="badge text-bg-secondary">Swagger</span>
+                                        <span class="badge text-bg-secondary">xUnit</span>
+                                    </div>
+
+                                    <h4 class="fw-semibold">Product REST API</h4>
+
+                                    <p class="text-secondary">
+                                        Versioned REST API built with clean layered architecture,
+                                        supporting pagination, PATCH operations and database switching.
+                                    </p>
+
+                                    <ul class="small mb-4">
+                                        <li>API versioning (v1 / v2)</li>
+                                        <li>EF Core (MSSQL & InMemory)</li>
+                                        <li>Unit & integration tests</li>
+                                        <li>Swagger documentation</li>
+                                    </ul>
+
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a class="btn btn-sm btn-dark"
+                                            href="https://github.com/ondrej-bajer/WebApiApplication" target="_blank"
+                                            rel="noopener">
+                                            GitHub repo
+                                        </a>
+
+                                        <a class="btn btn-sm btn-outline-secondary"
+                                            href="https://github.com/ondrej-bajer/WebApiApplication#readme"
+                                            target="_blank" rel="noopener">
+                                            README
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
                 </div>
             </div>
         </section>
@@ -156,7 +259,7 @@
 
     <script src="bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- (volitelné) auto-active for navbar links based on current page -->
+    <!-- auto-active for navbar links based on current page -->
     <script>
         (function () {
             const current = location.pathname.split('/').pop() || 'index.html';

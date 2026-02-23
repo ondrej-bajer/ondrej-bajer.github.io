@@ -241,3 +241,41 @@ footer {
   margin-top: 1.25rem;
   border-top: 1px solid rgba(0,0,0,0.08);
 }
+
+/* ======== Carousel ======== */
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 6%;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.carousel-item {
+    transition: transform 0.6s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.08);
+}
+
+.carousel-indicators {
+    bottom: -55px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+    width: 15px;
+    height: 12px;
+    border-radius: 25%;
+    opacity: 0.3;
+    transition: all 0.5s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    transform: scale(1.2);
+}
