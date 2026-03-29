@@ -29,18 +29,29 @@ Personal finance tracking app with:
 - CSV import/export
 - Clean layered architecture
 
-## Tech
-Recently I work mostly with:
-- .NET 8
-- ASP.NET Core Web API
-- ASP.NET Core MVC
-- Entity Framework Core
-- SQL Server / SQLite
-- JWT Authentication
-- Integration & Unit Testing (xUnit)
-- REST API versioning
-Even .NET seems be my main focus hopfully I will add soon also some JS and Python projects ";-)"
+### S&P 500 Market Regime Analysis (Python, Pandas)
+
+Python-based data project focused on analyzing market conditions using historical S&P 500 data.
+
+- Processed historical time-series data using pandas and yfinance  
+- Implemented trend indicators (50/200-day moving averages)  
+- Calculated rolling volatility and market regime classification  
+- Computed performance metrics (annual return, volatility, max drawdown)  
+- Structured workflow for repeatable data analysis 
+
+## Technical Focus
+
+Python | SQL | Data Pipelines | C# / .NET  
 
 ## Purpose
 
-Feel free to explore the projects and reach out I will be happy to discuss everything related with Dev world
+The goal is to build practical systems that work with real-world data, combining domain knowledge with technical skills.
+
+Particular interest in data-driven systems, automation, and backend services — especially in energy and trading environments.
+
+---
+
+## Contact
+
+- ✉️ bajer.o@centrum.cz  
+- 💼 https://linkedin.com/in/ondrej-bajer  
